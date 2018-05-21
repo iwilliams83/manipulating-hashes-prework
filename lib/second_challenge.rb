@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  items = [] 
+  items = []
   groceries.each do |type, item|
-    item.each {|x| items << x}
+    item do {|x| items << x}
   end
 
 end
