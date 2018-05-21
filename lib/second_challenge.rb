@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   items = []
   groceries.each do |type, item|
-    item.each {|x| puts "x = #{x}"}
+    item.each {|x| items << x}
   end
 
 end
