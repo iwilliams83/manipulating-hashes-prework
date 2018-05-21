@@ -12,4 +12,6 @@ def second_challenge
     item.each {|x| items << x}
   end
 
+  items
+
 end
